@@ -1,0 +1,28 @@
+{
+  "name": "sch_mgmt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "keywords": [
+    "sch_mgmt",
+    "nodejs"
+  ],
+  "author": "Naol Kumela",
+  "license": "GPL-3.0-only",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
